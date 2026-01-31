@@ -1,5 +1,7 @@
 # Secure Azure SQL Access Using Azure Key Vault and Managed Identity
 
+### Watch me demonstrate this lab here: https://www.loom.com/share/9475450e06cc4754be6ab3abb90bd479
+
 ## Overview
 
 This lab demonstrates how to securely deploy and access an **Azure SQL Database** by storing credentials in **Azure Key Vault** and granting access to a **virtual machine using a system-assigned managed identity**.
@@ -159,3 +161,4 @@ This lab demonstrates a secure and production-aligned approach to managing datab
 - Secure secrets retrieval using Azure CLI
 - SQL connectivity from Linux-based virtual machines
 - Cloud security best practices
+
