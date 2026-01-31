@@ -103,7 +103,7 @@ az keyvault secret show \
   --name SqlAdminPassword \
   --query value \
   --output tsv
-
+```
 The secret was successfully retrieved using the VM’s managed identity.
 
 ## Connecting to Azure SQL Database
@@ -123,7 +123,7 @@ The virtual machine connects to the Azure SQL Database using SQL command-line to
 
 ```bash
 sqlcmd -S sql-server-lab003.database.windows.net -U sqladmin
-
+```
 When prompted, enter the password retrieved from **Azure Key Vault**.
 
 The connection completes successfully, confirming secure database access from the virtual machine.
@@ -161,4 +161,5 @@ This lab demonstrates a secure and production-aligned approach to managing datab
 - Secure secrets retrieval using Azure CLI
 - SQL connectivity from Linux-based virtual machines
 - Cloud security best practices
+
 
